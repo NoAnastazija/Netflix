@@ -5,12 +5,7 @@ import { Component } from '@angular/core';
  
  template:`
   
-  <app-header></app-header>
-
-  <app-contact></app-contact>
-  
-  <app-home></app-home>
- 
+<app-header></app-header>
 
  <router-outlet></router-outlet>
 
