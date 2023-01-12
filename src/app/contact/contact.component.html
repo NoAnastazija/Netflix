@@ -1,0 +1,29 @@
+<section class="hero is-danger is-bold">
+    <div class="hero-body">
+    <div class="container">
+        <h1 class="title">Prijavi se!</h1>
+    </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        
+        <form (ngSubmit)="submitForm()">
+            <div class="field">
+                <label class="label">Uporabnisko ime</label>
+                <input type="text" name="name" class="input" [(ngModel)]="name">
+            </div>
+
+            <div class="field">
+                <label class="label">Geslo</label>
+                <input type="password" name="password" class="input" [(ngModel)]="password">
+            </div>
+
+            <button type="submit" class="button is-large is-warning">
+                Pošlji!
+            </button>
+        </form>
+    </div>
+</section>
